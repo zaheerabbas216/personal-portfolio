@@ -1,0 +1,36 @@
+.userImg{
+    width: 120%;
+}
+
+.aboutMeSection{
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+}
+.journalSection{
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+}
+
+.contactusSection{
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+}
+
+.imgParent{
+    position: relative;
+    border: 18px solid #B59E7C;
+    height: 375px;
+    width: 350px;
+}
+
+.imgDiv{
+    .userImg{
+        // height: 95%;
+        // width: 95%;
+       
+        top: -50px;
+        left: 25px;
+        object-fit: cover;
+        position: absolute;
+    }
+}

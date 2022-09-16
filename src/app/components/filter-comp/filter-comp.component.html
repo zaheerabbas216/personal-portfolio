@@ -1,0 +1,43 @@
+<!-- <p>filter-comp works!</p> -->
+<div class="filterBtnDiv">
+  <button
+    class="btn btn-outline-danger m-2 px-5 rounded-0 __button"
+    (click)="allImagesFun()"
+  >
+    All
+  </button>
+  <button
+    class="btn btn-outline-primary m-2 px-5 rounded-0 __button"
+    (click)="divFunction('blue')"
+  >
+    Nature
+  </button>
+  <button
+    class="btn btn-outline-success px-5 m-2 rounded-0 __button"
+    (click)="divFunction('green')"
+  >
+    Food
+  </button>
+  <button
+    class="btn btn-outline-warning px-5 m-2 rounded-0 __button"
+    (click)="divFunction('yellow')"
+  >
+    Street
+  </button>
+  <button
+    class="btn btn-outline-secondary px-5 m-2 rounded-0 __button"
+    (click)="divFunction('grey')"
+  >
+    Travel
+  </button>
+</div>
+<!-- <button class="btn btn-success mx-2" (click)="div5Function()">Div5</button> -->
+
+<div class="container p-2">
+  <div class="row">
+    <div class="col-md-3 col-container" *ngFor="let item of list">
+      <img class="img img-fluid img_div" src="{{ item.img }}" />
+      <!-- <p>{{item.color}}</p> -->
+    </div>
+  </div>
+</div>

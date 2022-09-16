@@ -1,0 +1,23 @@
+.bannerDiv{
+    position: relative;
+    background-image: url("../../../assets/bannerImages/bannerOne.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    height: 100vh;
+    width: 100%;
+
+    .bannerText{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .socialIcons{
+        .socialImg{
+            cursor: pointer;
+            width: auto;
+            height: 20px;
+            margin-right: 10px;
+        }
+    }
+}
