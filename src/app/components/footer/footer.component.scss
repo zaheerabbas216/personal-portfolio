@@ -1,0 +1,15 @@
+.footerDiv{
+    background-color: #f7f7f7;
+    .socialIcons{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .socialFooterIcons{
+     height: 30px;
+     width: 30px;
+     margin: 10px;
+    }
+}
